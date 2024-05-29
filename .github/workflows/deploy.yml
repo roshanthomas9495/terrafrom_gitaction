@@ -36,6 +36,6 @@ jobs:
         run: terraform apply -auto-approve
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GCP_CREDENTIALS }}
-          GOOGLE_PROJECT: ${{ secrets.GCP_PROJECT }}
-          GOOGLE_REGION: ${{ secrets.GCP_REGION }}
-          GOOGLE_ZONE: ${{ secrets.GCP_ZONE }}
+          GOOGLE_PROJECT: jmc-devsecops
+          GOOGLE_REGION: asia-south1
+          GOOGLE_ZONE: asia-south1-a	
